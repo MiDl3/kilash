@@ -1,0 +1,657 @@
+ body{
+    background-color: #212529 !important;
+     color: white !important;
+     font-family: Arial, Helvetica, sans-serif;
+     overflow-x: hidden;
+}
+a {
+    color: white;
+    text-decoration: none;
+} 
+.btn {
+    background-color: rgb(133, 8, 199) !important;
+    border-color: rgb(133, 8, 199) !important;
+}
+.titleOffer {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.h1Offers {
+    font-size: 28px;
+}
+hr {
+    margin: 5px 0 !important;
+    width: 8% !important;
+    border-bottom: 3px solid #bc00f5 !important; 
+    border-top: 2px solid #bc00f5 !important;  
+}
+.carousel {
+    margin-top: 3%;
+}
+.bannerTop {
+    margin-top: 3%;
+}
+div.polaroid {
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+    color: black;
+}
+.align-itemP {
+    margin-left: 15%;
+    margin-top: 3% !important;
+}
+.align-item {
+    margin-top: 3% !important;
+}
+
+
+
+
+
+
+
+
+
+
+  /* css responsive */
+
+ @media (max-width: 400px) {
+     h3.cat{
+         display: none;
+         font: normal 16pt Arial;
+     }
+     a#dmouse{
+        font: normal 16pt Arial;
+        background-color: rgb(213, 202, 240);
+        display: none;
+     }
+     a#dteclado{
+        font: normal 16pt Arial;
+        display: none;
+     }
+     a#dhead{
+        font: normal 16pt Arial;
+        display: none;
+     }
+     a#dgabi{
+        font: normal 16pt Arial;
+        display: none;
+     }
+     a#dcombo{
+        font: normal 16pt Arial;
+        display: none;
+     } /* hardware*/
+     h3.hard{
+        font: normal 16pt Arial;
+        display: none;
+    }
+    a#pro{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#plav{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#ssds{
+       font: normal 16pt Arial;
+       display: none;
+       
+    }
+    a#mother{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#ram{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#power{
+        font: normal 16pt Arial;
+        display: none;
+     } /* consoler */
+     h3.pz{
+        font: normal 16pt Arial;
+        display: none;
+    }
+    a#pcg{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#pce{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#ps5{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#ps4{
+       font: normal 16pt Arial;
+       display: none;
+    } /* end settings*/
+    img.kilash {
+        display: none;
+    } img.logo{
+        left: 25%;
+        height: 90px;
+        width: 150px;
+    }
+    p#pa {
+        font: normal 15pt Arial;
+        display: none;
+    }
+    input#txt {
+        width: 100px;
+        top: 45px;
+        left: 1px;
+        display: none;
+    }
+    input#txt2 {
+        width: 100px;
+        top: 70px;
+        left: 1px;
+        display: none;
+    } input#accept {
+        top: 55px;
+        left: 120px;
+        display: none;
+    } header#media {
+        position: absolute;
+        background-color: rgba(175, 10, 240, 0.904);
+        height: 100px;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+    } 
+    a.cart {
+        left: 70%;
+    }
+    section.sec1 {
+        position: absolute;
+        top: 105px;
+        left: 0px;
+    }
+    button.sumore {
+        position: absolute;
+        left: 0px;
+        height: 40px;
+        width: 55px;
+        background-size: cover;
+    } div#baka {
+        display: none;
+    }
+    a.pedro {
+        left: 0px;
+        top: 1%;
+        font:  normal 8pt Arial;
+    } img#placa {
+        height: 150px;
+        width: 150px;
+    } a.i5 {
+        display: none;
+    } a.ram {
+        left: 0px !important;
+        top: 20%;
+    } img.mram {
+        height: 150px;
+        width: 150px;
+    } a.mon {
+        left: 0px;
+        top: 40%;
+    } img.monitor {
+        height: 150px;
+        width: 150px;
+    } a.mse {
+        left: 0px;
+        top: 60%;
+    } img.snake {
+        height: 150px;
+        width: 150px;
+    } a.s34sdhd {
+        left: 0px;
+        top: 80%;
+    } img.SSD {
+        height: 150px;
+        width: 150px;
+    } a.booknote {
+        display: none;
+    } a.book {
+        display: none;
+    } a.fonte {
+        display: none;
+    } a.pc {
+        display: none;
+    } a.comp {
+        display: none;
+    } a.placam {
+        display: none;
+    } a.pcba {
+        display: none;
+    } a.tecla {
+        display: none;
+    } a.i9 {
+        display: none;
+    } a.pctop {
+        display: none;
+    } section.sec2 {
+        display: none;
+    } a.ben10 {
+        display: none;
+    } section.sec1 {
+        padding: 50%;
+        width: 0% !important;
+        right: 0mm;
+        height: 640px;
+    } div#cancer {
+        left: 0px;
+    } div#video {
+        left: 0px;
+    } 
+ }  
+  /* tablet */
+ 
+ @media (min-width: 400px) and (max-width: 800px) {
+    h3.cat{
+        display: none;
+        font: normal 16pt Arial;
+    }
+    a#dmouse{
+       font: normal 16pt Arial;
+       background-color: rgb(213, 202, 240);
+       display: none;
+    }
+    a#dteclado{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#dhead{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#dgabi{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#dcombo{
+       font: normal 16pt Arial;
+       display: none;
+    } /* hardware*/
+    h3.hard{
+       font: normal 16pt Arial;
+       display: none;
+   }
+   a#pro{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#plav{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ssds{
+      font: normal 16pt Arial;
+      display: none;
+      
+   }
+   a#mother{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ram{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#power{
+       font: normal 16pt Arial;
+       display: none;
+    } /* consoler */
+    h3.pz{
+       font: normal 16pt Arial;
+       display: none;
+   }
+   a#pcg{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#pce{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ps5{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ps4{
+      font: normal 16pt Arial;
+      display: none;
+   } /* end settings*/
+   img.kilash {
+       display: none;
+   } img.logo{
+       left: 25%;
+       height: 90px;
+       width: 150px;
+   }
+   p#pa {
+       font: normal 15pt Arial;
+       display: none;
+   }
+   input#txt {
+       width: 100px;
+       top: 45px;
+       left: 1px;
+       display: none;
+   }
+   input#txt2 {
+       width: 100px;
+       top: 70px;
+       left: 1px;
+       display: none;
+   } input#accept {
+       top: 55px;
+       left: 120px;
+       display: none;
+   } header#media {
+       position: absolute;
+       background-color: rgba(175, 10, 240, 0.904);
+       height: 100px;
+       width: 100%;
+       left: 0px;
+       top: 0px;
+   } 
+   a.cart {
+       left: 70%;
+   }
+   section.sec1 {
+       position: absolute;
+       top: 105px;
+       left: 0px;
+   }
+   button.sumore {
+       position: absolute;
+       left: 0px;
+       height: 40px;
+       width: 55px;
+       background-size: cover;
+   } div#baka {
+       display: none;
+   }
+   a.pedro {
+       left: 0px;
+       top: 1%;
+       font:  normal 7pt Arial;
+   } img#placa {
+       height: 150px;
+       width: 150px;
+   } a.i5 {
+       display: none;
+   } a.ram {
+       left: 0px !important;
+       top: 20%;
+   } img.mram {
+       height: 150px;
+       width: 150px;
+   } a.mon {
+       left: 0px;
+       top: 40%;
+   } img.monitor {
+       height: 150px;
+       width: 150px;
+   } a.mse {
+       left: 0px;
+       top: 60%;
+   } img.snake {
+       height: 150px;
+       width: 150px;
+   } a.s34sdhd {
+       left: 0px;
+       top: 80%;
+   } img.SSD {
+       height: 150px;
+       width: 150px;
+   } a.booknote {
+       display: none;
+   } a.book {
+       display: none;
+   } a.fonte {
+       display: none;
+   } a.pc {
+       display: none;
+   } a.comp {
+       display: none;
+   } a.placam {
+       display: none;
+   } a.pcba {
+       display: none;
+   } a.tecla {
+       display: none;
+   } a.i9 {
+       display: none;
+   } a.pctop {
+       display: none;
+   } section.sec2 {
+       display: none;
+   } a.ben10 {
+       display: none;
+   } section.sec1 {
+       padding: 50%;
+       width: 0% !important;
+       right: 0mm;
+       height: 640px;
+   } div#cancer {
+       left: 0px;
+   } div#video {
+       left: 0px;
+   }
+}   @media (min-width: 1000px) {
+    
+     img.kilash {
+        width: 100%;
+    } 
+
+} @media (min-width: 800px) and (max-width: 1500px) {
+    
+    h3.cat{
+        display: none;
+        font: normal 16pt Arial;
+    }
+    a#dmouse{
+       font: normal 16pt Arial;
+       background-color: rgb(213, 202, 240);
+       display: none;
+       top: 20%;
+       left: 45%;
+    }
+    a#dteclado{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#dhead{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#dgabi{
+       font: normal 16pt Arial;
+       display: none;
+    }
+    a#dcombo{
+       font: normal 16pt Arial;
+       display: none;
+    }  
+    h3.hard{
+       font: normal 16pt Arial;
+       display: none;
+   }
+   a#pro{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#plav{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ssds{
+      font: normal 16pt Arial;
+      display: none;
+      
+   }
+   a#mother{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ram{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#power{
+       font: normal 16pt Arial;
+       display: none;
+    }  
+    h3.pz{
+       font: normal 16pt Arial;
+       display: none;
+   }
+   a#pcg{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#pce{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ps5{
+      font: normal 16pt Arial;
+      display: none;
+   }
+   a#ps4{
+      font: normal 16pt Arial;
+      display: none;
+   }  
+   img.kilash {
+       display: none;
+   } img.logo{
+       left: 25%;
+       height: 90px;
+       width: 150px;
+   }
+   p#pa {
+       font: normal 15pt Arial;
+        left: 60%;
+   }
+   input#txt {
+       width: 100px;
+       top: 45px;
+       left: 60%;
+       
+   }
+   input#txt2 {
+       width: 100px;
+       top: 70px;
+       left: 60%;
+      
+   } input#accept {
+       top: 55px;
+       left: 69%;
+     
+   } header#media {
+       position: absolute;
+       background-color: rgba(175, 10, 240, 0.904);
+       height: 100px;
+       width: 100%;
+       left: 0px;
+       top: 0px;
+   } 
+   a.cart {
+       left: 10%;
+   }
+   section.sec1 {
+       position: absolute;
+       top: 105px;
+       left: 0px;
+   }
+   button.sumore {
+       position: absolute;
+       left: 0px;
+       height: 40px;
+       width: 55px;
+       background-size: cover;
+   } div#baka {
+       display: none;
+   }
+   a.pedro {
+       left: 0px;
+       top: 1%;
+       font:  normal 7pt Arial;
+   } img#placa {
+       height: 150px;
+       width: 150px;
+   } a.i5 {
+       display: none;
+   } a.ram {
+       left: 35% !important;
+       top: 1%;
+   } img.mram {
+       height: 150px;
+       width: 150px;
+   } a.mon {
+       left: 65% !important; 
+       top: 1%;
+   } img.monitor {
+       height: 150px;
+       width: 150px;
+   } a.mse {
+       left: 0px;
+       top: 21%;
+   } img.snake {
+       height: 150px;
+       width: 150px;
+   } a.s34sdhd {
+       left: 35%;
+       top: 21%;
+   } img.SSD {
+       height: 150px;
+       width: 150px;
+   } a.booknote {
+       display: none;
+   } a.book {
+       display: none;
+   } a.fonte {
+       display: none;
+   } a.pc {
+       display: none;
+   } a.comp {
+       display: none;
+   } a.placam {
+       display: none;
+   } a.pcba {
+       display: none;
+   } a.tecla {
+        height: 150px;
+        width: 150px;
+        left: 65%;
+        top: 21%;
+   } a.i9 {
+       display: none;
+   } a.pctop {
+       display: none;
+   } section.sec2 {
+       display: none;
+   } a.ben10 {
+       display: none;
+   } section.sec1 {
+       padding: 50%;
+       width: 0% !important;
+       right: 0mm;
+       height: 0px;
+   } div#cancer {
+       left: 0px;
+   }
+    
+}
